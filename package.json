@@ -1,0 +1,24 @@
+{
+  "name": "devgenpackage",
+  "version": "1.0.0",
+  "description": "contains my necessary npms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evan-M-Py/devProfileGenerator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evan-M-Py/devProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/Evan-M-Py/devProfileGenerator#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "github-api": "^3.3.0",
+    "inquirer": "^7.0.3"
+  }
+}

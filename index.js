@@ -22,8 +22,8 @@ inquirer.prompt([
     }
   ]).then((data) => {
     const gh = new github({
-        username: 'Evan-M-Py',
-        password: 'Phishin95!'
+        username: '',
+        password: ''
      });  
 
     const userGrab = gh.getProfile(data.userName)

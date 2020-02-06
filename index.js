@@ -27,18 +27,6 @@ function init() {
     const specificRes =  await specificQueries(data);
     console.log(specificRes)
   })};
-
-    // repoQuery(data)
-    // const reposNum = data.data.length
-    // console.log(reposNum)
-
-
-    // emailQuery(data)
-
-
-    // const profilePicQueryUrl = `https://api.github.com/users/${username}/repos?per_page=100`;
-    // const queryUrl = `https://api.github.com/users/${username}/repos?per_page=100`;
-
   
 
 function generalQuery(data) {
@@ -332,25 +320,3 @@ function generateHTML(data) {
 init();
 
 
-
-        // const queryUrl = `https://api.github.com/users/${userName}/repos?per_page=100`;
-
-        // axios.get(queryUrl).then(function(res) {
-        //     console.log(res)
-
-          //       const repoNames = res.data.map(function(repo) {
-    //         return repo.name;
-    //       });
-
-    //       const repoNamesStr = repoNames.join("\n");
-    //  console.log(repoNames)
-    //  console.log(repoNamesStr)
-
-
-          // fs.writeFile("repos.txt", repoNamesStr, (err) => {
-          //   if (err) {
-          //     throw err;}
-
-          //   console.log(`Saved ${repoNames.length} repos`);
-          // });
-        // });

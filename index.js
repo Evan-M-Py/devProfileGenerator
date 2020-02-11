@@ -282,6 +282,7 @@ function init() {
         { name: 'red', value: colors.red, short: 'red' }]
     }
   ]).then(async function (data) {
+    console.log(data);
     const color = await data.color;
     const profRes = await generalQuery(data)
     const { profileIMG, gitName, gitLink, gitBio } = profRes
@@ -296,7 +297,7 @@ function init() {
     const options = { format: 'letter'};;
 
     pdf.create(genHtml).toFile('./profile.pdf', function (err, res) {
-      if (err) return console.log('ERROR INDEX.JS LINE 24');
+      if (err) return console.log('file not saved, error');
       console.log('Success!!!!');
   });
 
